@@ -5,7 +5,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body {
+        background-color: #EEE5FD;
+    }
+    .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Irish Grover';
+    margin-block:100px ;
+    border-radius: 50px;
+    }
+    .card_one{
+    width: 50%;
+    background-color: #fff;
+    
+    }
+    .card_ones .img_one{
+        width: 10px;
+        height: 10px;
+        border-radius: 20%;
+        place-items: center;
+        
+        
+    }
+    .title{
+        text-align: center;
+    }
+    .title .personal{
+        justify-content: space-around;
+    }
+    .boton_bajo{
+    display: grid;
+    place-items: center;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Just Another Hand';
+    }
+
+    .boton_bajo a{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 40px;
+    background-color: #beb5cc;
+    width: 60%;
+    border-radius: 50px;
+    display: grid;
+    place-items: center;
+    color: #000;
+    
+    }
+    .cuerpo{
+        justify-content: center;
+    }
+   
+    .cuerpo p{
+        display: flex;
+        justify-content: center;
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+    }
+
+    .imguno{
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        
+    }
+    
+
+    .personal{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+</style>
 <body>
-    <img src="" alt="">
+    <div class="container">
+        <div class="card_one">
+            <img class="img_uno" src="https://laguiainmobiliaria.com/wp-content/uploads/2016/10/perfil-circulo-300x199.png" alt="perfiluno">
+            <div class="title">
+                <h1>Sathish Kumar</h1>
+                <p>UI/UX Mobile Designer</p>
+                <div class="personal">
+                    <p>Projects</p>
+                    <p>Following</p>
+                    <p>Followers</p>
+                </div>
+                <div class="personal">
+                    <h2>17</h2>
+                    <h2>159</h2>
+                    <h2>205</h2>
+                </div>
+                <div class="cuepo">
+                    <p>Lorem ipsum dolor sit amer, consectetur adip iscing elit.
+                         Sed et est et velit ornare ultrices. Ut vitae diam volutpatrisus eget.</p>
+                </div>
+                
+            </div  >
+            <div class="img">
+                <img class="imguno" src="https://img.freepik.com/vector-premium/logotipo-redondo-twitter-aislado-sobre-fondo-blanco_469489-899.jpg" alt="">
+                <img class="imguno" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1200px-Facebook_f_logo_%282019%29.svg.png" alt="">
+                <img class="imguno" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Google_Plus_icon_%282015-2019%29.svg/1200px-Google_Plus_icon_%282015-2019%29.svg.png" alt="">
+                <img class="imguno" src="https://cdn.icon-icons.com/icons2/2592/PNG/512/be_logo_icon_154498.png" alt="">
+            </div>
+            <div class="boton_bajo">
+                <a href="boton_bajo">View Profile</a>
+            </div>
+        </div>
+        
+    </div>
+    
+
 </body>
 </html>
